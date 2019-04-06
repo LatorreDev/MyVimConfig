@@ -2,6 +2,7 @@ set tabstop=8 shiftwidth=8
 set smartindent
 set cindent
 syntax enable
+colorscheme molokai_dark 
 set number
 set encoding=utf-8
 
@@ -33,7 +34,7 @@ Plugin 'alvan/vim-closetag'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'othree/html5-syntax.vim'
 Plugin 'spf13/vim-preview'
-Plugin 'luchermitte/lh-cpp'
-Plugin 'luchermitte/vimfold4c'
+Plugin 'suan/vim-instant-markdown'
+Plugin 'joonty/vdebug'
 call vundle#end()
 filetype plugin indent on
