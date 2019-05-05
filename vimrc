@@ -2,7 +2,7 @@ set tabstop=8 shiftwidth=8
 set smartindent
 set cindent
 syntax enable
-colorscheme molokai_dark 
+colorscheme murphy
 set number
 set encoding=utf-8
 
@@ -36,5 +36,9 @@ Plugin 'othree/html5-syntax.vim'
 Plugin 'spf13/vim-preview'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'joonty/vdebug'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'hynek/vim-python-pep8-indent'
+Plugin 'thaerkh/vim-workspace'
+Plugin 'mbbill/undotree'
 call vundle#end()
 filetype plugin indent on
