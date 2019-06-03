@@ -1,12 +1,11 @@
 set tabstop=8 shiftwidth=8
 set smartindent
 set cindent
+set ruler
+set showcmd
 syntax enable
 set number
 set encoding=utf-8
-
-
-
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -22,21 +21,11 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'YankRing.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
 Plugin 'kiddos/malokai.vim'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'tyru/open-browser.vim'
-Plugin 'plasticboy/vim-markdown'
 Plugin 'othree/html5.vim'
 Plugin 'alvan/vim-closetag'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'othree/html5-syntax.vim'
-Plugin 'spf13/vim-preview'
-Plugin 'suan/vim-instant-markdown'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'hynek/vim-python-pep8-indent'
-Plugin 'thaerkh/vim-workspace'
-Plugin 'mbbill/undotree'
 call vundle#end()
 filetype plugin indent on
-colorscheme malokai
+colorscheme malokai		
