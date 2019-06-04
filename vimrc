@@ -26,6 +26,9 @@ Plugin 'othree/html5.vim'
 Plugin 'alvan/vim-closetag'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'othree/html5-syntax.vim'
+Plugin 'xuyuanp/nerdtree-git-plugin'
+Plugin 'vim-airline/vim-airline'
+Plugin 'fatih/vim-go'
 call vundle#end()
 filetype plugin indent on
 colorscheme malokai		
