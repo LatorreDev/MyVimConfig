@@ -7,6 +7,8 @@ syntax enable
 set number
 set encoding=utf-8
 set nocompatible
+set backspace=indent,eol,start
+set mmp=5000
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -28,6 +30,9 @@ Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'othree/html5-syntax.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-python/python-syntax'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'ambv/black'
 Plugin 'fatih/vim-go'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-rails'
@@ -36,3 +41,4 @@ Plugin 'rust-lang/rust.vim'
 call vundle#end()
 filetype plugin indent on
 colorscheme malokai		
+
