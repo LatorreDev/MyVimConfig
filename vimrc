@@ -1,11 +1,17 @@
 set tabstop=8 shiftwidth=8
+set mouse=a
 set smartindent
 set cindent
-set ruler
-set showcmd
-syntax enable
 set number
+set numberwidth=1
+set clipboard=unnamed
+syntax enable
+set showcmd
+set ruler
 set encoding=utf-8
+set showmatch
+set relativenumber
+set laststatus=2
 set nocompatible
 set backspace=indent,eol,start
 set mmp=5000
@@ -13,7 +19,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'aftersyntaxc.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'honza/vim-snippets'
@@ -23,7 +28,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'YankRing.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-fugitive'
-Plugin 'kiddos/malokai.vim'
+Plugin 'tomasr/molokai'
 Plugin 'othree/html5.vim'
 Plugin 'alvan/vim-closetag'
 Plugin 'gorodinskiy/vim-coloresque'
@@ -40,5 +45,4 @@ Plugin 'elzr/vim-json'
 Plugin 'rust-lang/rust.vim'
 call vundle#end()
 filetype plugin indent on
-colorscheme malokai		
-
+colorscheme molokai 
