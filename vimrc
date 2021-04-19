@@ -18,6 +18,11 @@ set mmp=5000
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+"Themes"
+Plugin 'morhetz/gruvbox'
+"IDE"
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'easymotion/vim-easymotion'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'aftersyntaxc.vim'
 Plugin 'mattn/emmet-vim'
@@ -45,4 +50,10 @@ Plugin 'elzr/vim-json'
 Plugin 'rust-lang/rust.vim'
 call vundle#end()
 filetype plugin indent on
-colorscheme molokai 
+let g:gruvbox_contrast_dark = "hard"
+let NERDTreeQuitOnOpen=1
+
+let mapleader=" "
+
+nmap <Leader>s <Plug>(easymotion-s2)
+nmap <LEADER>nt :NERDTreeFind<CR>
