@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Copy vim config to vimrc
+echo "copying vim config"
+sleep 1
+cp vimrc ~/.vimrc
+echo "config copied"
