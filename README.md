@@ -12,12 +12,30 @@ Download MyvimConfig
 ```bash
 git clone https://github.com/LatorreDev/MyVimConfig.git
 ```
-copy the vimrc file to ~/.vimrc
-dont forget de . before vimrc, it means is a hidden file.
 
-Enter to your .vimrc
+### For Vim
+copy the vimrc file to ~/.vimrc
+dont forget the . before vimrc, it means is a hidden file.
+
+### For Neovim
+copy the vimrc file to ~/.config/nvim/init
+create the folders and the file if those don't exist
+```bash
+mkdir ~/.config/nvim
+touch ~/.config/nvim/init
+```
+example to copy
+```bash
+cat vimrc > ~/.config/nvim/init
+```
+Enter to your .vimrc or you init file for neovim
+#### Vim
 ```bash
 vim ~/.vimrc
+```
+#### Neovim
+```bash
+vim ~/.config/nvim/init
 ```
 type
 ```bash
