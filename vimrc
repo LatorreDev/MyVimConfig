@@ -55,5 +55,6 @@ let NERDTreeQuitOnOpen=1
 
 let mapleader=" "
 
+
 nmap <Leader>s <Plug>(easymotion-s2)
 nmap <LEADER>nt :NERDTreeFind<CR>
