@@ -18,15 +18,15 @@ copy the vimrc file to ~/.vimrc
 dont forget the . before vimrc, it means is a hidden file.
 
 ### For Neovim
-copy the vimrc file to ~/.config/nvim/init
+copy the vimrc file to ~/.config/nvim/init.vim
 create the folders and the file if those don't exist
 ```bash
 mkdir ~/.config/nvim
-touch ~/.config/nvim/init
+touch ~/.config/nvim/init.vim
 ```
 example to copy
 ```bash
-cat vimrc > ~/.config/nvim/init
+cat vimrc > ~/.config/nvim/init.vim
 ```
 Enter to your .vimrc or you init file for neovim
 #### Vim
@@ -35,7 +35,7 @@ vim ~/.vimrc
 ```
 #### Neovim
 ```bash
-vim ~/.config/nvim/init
+vim ~/.config/nvim/init.vim
 ```
 type
 ```bash
