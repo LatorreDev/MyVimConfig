@@ -10,7 +10,6 @@ set showcmd
 set ruler
 set encoding=utf-8
 set showmatch
-set relativenumber
 set laststatus=2
 set nocompatible
 set backspace=indent,eol,start
@@ -48,6 +47,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-rails'
 Plugin 'elzr/vim-json'
 Plugin 'rust-lang/rust.vim'
+Plugin 'apzelos/blamer.nvim'
+Plugin 'puremourning/vimspector'
 call vundle#end()
 filetype plugin indent on
 let g:gruvbox_contrast_dark = "hard"
