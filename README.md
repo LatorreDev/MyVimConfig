@@ -53,3 +53,7 @@ quit vim with
 ```
 
 Restart vim and enjoy
+
+#### More plugins
+if you want to add more plugins you can visit
+[vim awesome](https://vimawesome.com/)
